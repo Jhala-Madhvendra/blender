@@ -38,7 +38,7 @@ struct ResultBLF;
 struct rctf;
 struct rcti;
 
-int BLF_init(void);
+int BLF_init();
 void BLF_exit(void);
 
 void BLF_cache_clear(void);
